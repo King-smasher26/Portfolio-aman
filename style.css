@@ -685,3 +685,6 @@ textarea{
   }
 
 }
+#bot-field{
+  display: none;
+}
