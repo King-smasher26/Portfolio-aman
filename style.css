@@ -345,7 +345,6 @@ body {
 }
 
 #PC3 {
-    /* border: 10px solid blue; */
     position: relative;
     top: -10%;
     z-index: 34;
@@ -366,14 +365,14 @@ body {
 }
 
 @media screen and (max-width :1300px) {
-    .Project-card-int-div{
+    /* .Project-card-int-div{
       margin: 10vh 4vh 10vh 4vh;
-      /* background-color: #222222; */
+      background-color: #222222;
       width: 700px;
     }
     #PC2 {
         left: 30%;
-      }
+      } */
     .bigcontainer-cards{
       background-color: black;
         /* border: 10px solid pink; */
@@ -604,7 +603,7 @@ textarea{
 
   /* PROJECT CARD CSS */
 
-  .Project-card-int-div{
+  /* .Project-card-int-div{
     width: 450px;
     display: flex;
     flex-direction: column;
@@ -628,14 +627,13 @@ textarea{
 
   }
   #PC2 img{
-    /* border: 12px solid red; */
     margin-top: 10px;
     height: 25vh;
     width: 60vw;
     margin-left: 4%;
     margin-right: 4%;
 
-  }
+  } */
   /* #Skills-text{
     margin-top: 400px;  
     border: 2px solid burlywood;
@@ -664,11 +662,11 @@ textarea{
   /* .image-outer{
     border: 2px solid blue;
   } */
-  
+/*   
   .Project-card-int-div,#PC3{
     position: relative;
     top: 100px;
-  }
+  } */
 }
 
 @media screen and (max-width: 650px){
@@ -687,4 +685,28 @@ textarea{
 }
 #bot-field{
   display: none;
+}
+@media screen and (max-width :1300px) {
+  .Project-card-int-div{
+    border: 2px solid pink;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column ;
+    font-size: 1vw;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+  }
+  #PC2{
+    left:0%;
+  }
+  #PC3{
+    display: flex;
+    display: block;
+    position: static;
+  }
+  .Project-card-img{
+    width: 40vw;
+    height: 30vw;
+  }
 }
