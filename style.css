@@ -452,10 +452,10 @@ body {
   transition:transfrom .5s;
 }
 
-.name{
-  
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-}
+  /* .name{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+  } */
 
 /* Contact css */
 
@@ -726,16 +726,44 @@ textarea{
     #Skills-text p{
       font-size: 14vw;
     }
-    /* #name{
-      font-size: 6vw;
-    } */
-      #Container1{
-        border: 2px solid pink
-      }
+    
     #sk-text{
       /* border: 1px solid white; */
       position: relative;
       top:15vh
-    } 
+    }
+    #aman-info{
+      /* border: 2px solid white;  */
+      width: 70vw;
+      height: 50vh;
+      align-items: center;
+    }
+    #name{
+      /* clip-path: none;  */
+      font-size: 8vw;
+      display: flex;
+      /* border: 2px solid pink; */
+      height: 10vh;
+      width: 55vw;
+    }
+    #aman-info-int{
+      /* border:2px solid pink;
+      height: 9vh;
+      width: 70vw;
+      font-size: 3vh; */
+      font-size: 4.5vw;
+      display: flex;
+      /* border: 2px solid pink; */
+      height: 10vh;
+      width: 70vw;
+      
+    }
+    
+
+}
+#aman-info{
+  /* border: 2px solid white; */
+  height: 28vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 
 }
