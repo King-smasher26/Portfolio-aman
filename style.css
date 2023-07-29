@@ -694,11 +694,11 @@ textarea{
   #PC2{
     left:0%;
   }
-  #PC3{
+  /* #PC3{
     display: flex;
     display: block;
     position: static;
-  }
+  } */
   .Project-card-img{
     width: 40vw;
     height: 20vh;
