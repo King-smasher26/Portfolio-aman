@@ -71,16 +71,13 @@ body{
     nav{
       text-align: center;
     }
-    .logo{
-      margin-left: 40px;
-    }
     #checkbtn{
       display: block;
       float: left;
     }
     nav ul{
       /* border: 1px solid white; */
-      width: 40%;
+      width: 100%;
       text-align: center;
       /* height: 27vh; */
       background-color: black;
@@ -420,18 +417,11 @@ body {
 #aman-info-int{
   color: white;
   font-size: 2vw;
-  height: 3vw;
+  height: 8vw;
   width: 40vw;
   /* border: 10px solid white; */
   text-align: center;
-}
-#aman-info-int2{
-  color: white;
-  font-size: 2vw;
-  height: 6vw;
-  width: 40vw;
-  /* border: 10px solid white; */
-  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 #aman-info{
   display: flex ;
@@ -453,7 +443,6 @@ body {
 }
 
   /* .name{
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 
   } */
 
@@ -749,13 +738,16 @@ textarea{
     #aman-info-int{
       font-size: 4.5vw;
       display: flex;
-      height: 10vh;
       width: 70vw;
       
       /* border: 2px solid white; */
       height: 20vw;
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    }
-    
+      /* clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%); */
 
+    }
+    #Container1{
+      /* border: 2px solid white; */
+      height: 70vh;
+    }
 }
