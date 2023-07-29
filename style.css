@@ -688,7 +688,7 @@ textarea{
 }
 @media screen and (max-width :1300px) {
   #Container3{
-    margin-top:50vw;
+    margin-top:50vh;
     /* border: 2px solid white ; */
   }
   .Project-card-int-div{
