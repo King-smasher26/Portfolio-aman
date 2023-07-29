@@ -79,6 +79,7 @@ body{
       float: left;
     }
     nav ul{
+      /* border: 1px solid white; */
       width: 40%;
       text-align: center;
       /* height: 27vh; */
@@ -95,11 +96,12 @@ body{
       flex-direction: column;
       text-align: center;
       margin:0 0 0 0;
+      /* border-radius: 20px; */
       border: 1px solid white;
       
     }
   }
-
+  
   
   #Container2{  
     height: 150vh;
@@ -384,7 +386,7 @@ body {
     #Container4{
     /* border: 10px solid white; */
     background-color: black;
-    height: 150vh;
+    height: 120vh;
 }
 #Container1{
     /* border: 10px solid white; */
