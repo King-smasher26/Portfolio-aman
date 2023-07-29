@@ -389,9 +389,7 @@ body {
     height: 120vh;
 }
 #Container1{
-    /* border: 10px solid white; */
-    height: 40vw;
-    /* color: #EDEADE; */
+    height: 100vh;
 }
 
 
@@ -731,6 +729,9 @@ textarea{
     /* #name{
       font-size: 6vw;
     } */
+      #Container1{
+        border: 2px solid pink
+      }
     #sk-text{
       /* border: 1px solid white; */
       position: relative;
