@@ -752,13 +752,10 @@ textarea{
       height: 10vh;
       width: 70vw;
       
+      border: 2px solid white;
+      height: 20vw;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
     
-
-}
-#aman-info{
-  /* border: 2px solid white; */
-  height: 28vh;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 
 }
