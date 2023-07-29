@@ -714,12 +714,14 @@ textarea{
     }
     #Skills-text p{
       font-size: 14vw;
+      font-weight: 500;
     }
     
     #sk-text{
       /* border: 1px solid white; */
       position: relative;
-      top:15vh
+      top:15vh;
+      font-weight: 500;
     }
     #aman-info{
       /* border: 2px solid white;  */
