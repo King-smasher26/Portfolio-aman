@@ -69,41 +69,12 @@ body{
   #check:checked ~ ul{
     left: 0%;
   }
-  /* @media (max-width: 1250px){
-    
-    nav{
-      text-align: center;
-    }
-    #checkbtn{
-      display: block;
-      float: left;
-    }
-    nav ul{
-      width: 100%;
-      text-align: center;
-      background-color: black;
-      position: fixed;
-      left: -100%;
-      float: left;
-      padding: 0 0 0 0;
-    }
-    nav ul li {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      margin:0 0 0 0;
-      border: 1px solid white;
-      
-    }
-  } */
-  
+
   
   #Container2{  
     height: 150vh;
     background-color: black;
-    /* border: 2px solid red; */
     color: white;
-    /* background-color:#222222; */
   }
 
   #Container3{
@@ -117,7 +88,6 @@ body{
 
 body {
   background-color: black;
-  /* color: white; */
 }
 
 .Skill-card {
@@ -132,20 +102,8 @@ body {
   font-size: 10vw;
   width: 100%;
   color: white;
-  /* border: 10px solid springgreen; */
   text-align: center;
 }
-
-/* @media screen and (max-width:1250px) {
-  
-  .Skill-card {
-    flex-direction: column;
-    z-index: 40;
-  }
-  
-  
-  
-} */
 
 .Skill-interior {
   border: solid 1px white;
@@ -153,14 +111,12 @@ body {
     width: 270px;
     border-radius: 10px;
     background-color: #0c0c0c;
-    /* margin-left: 100px; */
 
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 3%;
     margin-bottom: 3%;
-    /* opacity: 0.5; */
 }
 
 .Skill-interior:hover {
@@ -172,10 +128,6 @@ body {
 .Skill-head {
     text-align: center;
     font-family: 'Barlow Condensed', sans-serif;
-    /* font-family: 'Fascinate', cursive;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Smooch'; */
-    font-size: 35px;
     font-weight: 600;
     margin-bottom: 10%;
 }
@@ -235,7 +187,6 @@ body {
 .container{
   height: 1000px;
   background-color: #9b4b4b;
-  /* border: 10px solid springgreen; */
 }
 .Skill-card{
     height: 1000px;
@@ -263,7 +214,6 @@ body {
     border: 1px solid rgb(142, 144, 155);
     margin-bottom: 8vh;
     align-items: center;
-    /* background-color: white; */
     background-color: #F0F8FF;
     box-shadow: 11px 13px 0px 4px rgba(163, 154, 154, 1);
     -webkit-box-shadow: 11px 13px 0px 4px rgba(163, 154, 154, 1);
@@ -271,7 +221,6 @@ body {
 }
 
 .Project-card-int{
-    /* border: 1px solid white; */
     margin-top: 10%;
 }
 .Project-info {
@@ -293,11 +242,7 @@ body {
 
 .Project-card-img {
     height: 150px;
-    /* margin-right: 10vh; */
-    /* margin-left: 10vh; */
-    /* border-radius: 20px; */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    /* border: 2px solid red; */
 }
 
 
@@ -310,22 +255,17 @@ body {
   text-shadow: 16px 13px 0px rgba(0, 0, 0, 0.56);
   z-index: 33;
     text-align: center;
-    /* border: 2px solid springgreen; */
     font-size: 200px;
   }
 
 
 #PC1 {
-    /* border: 10px solid blue; */
     position: relative;
-    /* left: 38%; */
     z-index: 34;
 }
 
 #PC2 {
-    /* border: 10px solid blue; */
     position: relative;
-    /* left: 30%; */
     z-index: 34;
     overflow: inherit;
     left:50%;
@@ -338,16 +278,13 @@ body {
     z-index: 34;
 }
 .image-outer{
-    /* border: 10px solid blue; */
     height: 25vh;
     width: 40vh;
     margin-left: 4vh;
     margin-right: 4vh;
-    /* border:4px solid #36454F; */
   }   
   .image-inner{
   
-  /* border: 10px solid pink; */
   display: block;
   overflow: hidden;
 }
@@ -377,7 +314,6 @@ body {
   font-size: 5vw;
   height: 7vw;
   width: 40vw;
-  /* border: 10px solid white; */
   text-align: center;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
@@ -386,7 +322,6 @@ body {
   font-size: 2vw;
   height: 8vw;
   width: 40vw;
-  /* border: 10px solid white; */
   text-align: center;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
@@ -400,7 +335,6 @@ body {
   justify-content: center;
   margin-top: 25vh;
   align-items:first baseline;
-  /* width: 100vw; */
 }
 
 
@@ -434,7 +368,6 @@ body {
 }
 .contact-box{
   max-width: 850px;
-	/* display: grid; */
 	display: flex;
 	align-items: center;
 	grid-template-columns: repeat(2, 1fr);
@@ -511,7 +444,6 @@ textarea{
 }
 
 .the-buttons{
-  /* border: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -525,7 +457,6 @@ textarea{
   display: flex;
   align-items: center;
   justify-content: center ;
-  /* border-radius: 5vw; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .visiting-btn:hover{
@@ -543,8 +474,7 @@ a{
 
 /* FINAL MEDIA CHANGES */
  
-@media screen and (max-width :1300px) {
-
+@media screen and (max-width :700px) {
   nav{
     text-align: center;
   }
@@ -596,6 +526,11 @@ a{
   .cursor{
     display: none;
   }
+
+}
+@media screen and (max-width :1300px) {
+
+  
   
   #Skills-text{
     margin-top: 20%;
