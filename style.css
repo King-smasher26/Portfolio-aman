@@ -474,7 +474,7 @@ a{
 
 /* FINAL MEDIA CHANGES */
  
-@media screen and (max-width :700px) {
+@media screen and (max-width :1300px) {
   nav{
     text-align: center;
   }
@@ -528,8 +528,9 @@ a{
   }
 
 }
-@media screen and (max-width :1100px) {
 
+
+@media screen and (max-width :1100px) {
   
   
   #Skills-text{
