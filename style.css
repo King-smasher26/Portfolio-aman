@@ -516,6 +516,36 @@ textarea{
   display: none;
 }
 
+.the-buttons{
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.visiting-btn{
+  color: white;
+  background-color: black;
+  width: 10vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  /* border-radius: 5vw; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.visiting-btn:hover{
+  color: black;
+  background-color: white;
+  cursor: none;
+  border: 1px solid black;
+
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
 
 /* FINAL MEDIA CHANGES */
  
@@ -654,46 +684,23 @@ textarea{
       height: 70vh;
     }
 
+    .visiting-btn{
+      /* border: 3px solid pink; */
+      font-size: 2.8vw;
+      width: 20vw;
+    }
     
     
     
 }
 
 
-.the-buttons{
-  /* border: 1px solid black; */
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
 
-.visiting-btn{
-  color: white;
-  background-color: black;
-  width: 10vw;
-  height: 5vh;
-  display: flex;
-  align-items: center;
-  justify-content: center ;
-  /* border-radius: 5vw; */
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.visiting-btn:hover{
-  color: black;
-  background-color: white;
-  cursor: none;
-  border: 1px solid black;
 
-}
-a{
-  text-decoration: none;
-  color: inherit;
-}
-
-@media screen and (max-width :1300px){
+/* @media screen and (max-width :1300px){
   .visiting-btn{
     border: 3px solid pink;
     font-size: 2.8vw;
     width: 20vw;
   }
-}
+} */
