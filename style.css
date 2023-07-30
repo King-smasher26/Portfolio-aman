@@ -142,7 +142,7 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width:1250px) {
+/* @media screen and (max-width:1250px) {
   
   .Skill-card {
     flex-direction: column;
@@ -151,7 +151,7 @@ body {
   
   
   
-}
+} */
 
 .Skill-interior {
   border: solid 1px white;
@@ -246,7 +246,6 @@ body {
 .Skill-card{
     height: 1000px;
     background-color: black;
-    /* border: 10px solid rgb(33, 94, 167); */
 }
 
 
@@ -595,6 +594,10 @@ textarea{
 /* FINAL MEDIA CHANGES */
  
 @media screen and (max-width :1300px) {
+  .Skill-card {
+    flex-direction: column;
+    z-index: 40;
+  }
   .contact-box{
 		grid-template-columns: 1fr;
 		width: 100%;
