@@ -248,14 +248,6 @@ body {
     background-color: black;
     /* border: 10px solid rgb(33, 94, 167); */
 }
-/* #SK2{
-    opacity: 1;
-} */
-
-/* .Portfolio-div{
-  display: flex;
-    flex-direction: column;
-} */
 
 
 /* PROJECT CARD CSS */
@@ -367,30 +359,8 @@ body {
   overflow: hidden;
 }
 
-@media screen and (max-width :1300px) {
-    /* .Project-card-int-div{
-      margin: 10vh 4vh 10vh 4vh;
-      background-color: #222222;
-      width: 700px;
-    }
-    #PC2 {
-        left: 30%;
-      } */
-    .bigcontainer-cards{
-      background-color: black;
-        /* border: 10px solid pink; */
-        
-      }
-      
-    }   
-
-    #Container4{
-    /* border: 10px solid white; */
-    background-color: black;
-    height: 120vh;
-}
 #Container1{
-    height: 100vh;
+  height: 100vh;
 }
 
 
@@ -446,11 +416,6 @@ body {
   transition:transfrom .5s;
 }
 
-  /* .name{
-
-  } */
-
-/* Contact css */
 
 .container-contact{
 	position: relative;
@@ -548,22 +513,21 @@ textarea{
     background-color: #fff;
 }
 
-@media screen and (max-width: 880px){
+/* @media screen and (max-width: 880px){
   .contact-box{
 		grid-template-columns: 1fr;
 		width: 100%;
 	}
 	.right{
-    /* height: 200px	; */
 		width: 100%;
 	}
 	.container-contact{
 		padding: 0 10px 0 10px;
 	}
-}
+} */
 
 
-@media screen and (max-width: 1250px) {
+/* @media screen and (max-width: 1250px) {
   .Container{
     background-color: black;
   }
@@ -579,8 +543,6 @@ textarea{
   
   #Skills-text{
     margin-top: 20%;
-    /* margin-left: 40px;
-    margin-right: 40px; */
     overflow-y: hidden;
   }
   
@@ -591,79 +553,27 @@ textarea{
     bottom: 0;
     right: 0;
     overflow: auto;
-    /* border: 10px solid white; */
   }
 
-
-  /* PROJECT CARD CSS */
-
-  /* .Project-card-int-div{
-    width: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow-y: hidden;
-  }
-  .Project-card-int{
-    display: flex;
-    border: 10px solid saddlebrown;
-    justify-content: center;
-    
-  }
-  #PC2{
-    left: 0%;
-    padding: 10px 10px 14px 10px;
-  }
-  #PC2 {
-    overflow: none;
-    overflow-y: hidden;
-
-  }
-  #PC2 img{
-    margin-top: 10px;
-    height: 25vh;
-    width: 60vw;
-    margin-left: 4%;
-    margin-right: 4%;
-
-  } */
-  /* #Skills-text{
-    margin-top: 400px;  
-    border: 2px solid burlywood;
-    top: 0;
-    font-size: 50px;
-  } */
 
   #Skills-text{
     position: relative;
-    /* margin-top:10px; */
     position: relative;
     height: 20vh;
     font-size: 10vw;
     width: 100%;
     color: white;
-    /* border: 10px solid springgreen; */
     text-align: center;
     top: 130px;
     }
   .image-inner{
     display: flex;
     justify-content: center;
-    /* border: 2px solid springgreen; */
 
   }
-  /* .image-outer{
-    border: 2px solid blue;
-  } */
-/*   
-  .Project-card-int-div,#PC3{
-    position: relative;
-    top: 100px;
-  } */
-}
+} */
 
-@media screen and (max-width: 650px){
+/* @media screen and (max-width: 650px){
   #Skills-text{
     top: 170px;
     margin-bottom: 20px;
@@ -676,11 +586,69 @@ textarea{
     font-size: 50px;
   }
 
-}
+} */
 #bot-field{
   display: none;
 }
+
+
+/* FINAL MEDIA CHANGES */
+ 
 @media screen and (max-width :1300px) {
+  .contact-box{
+		grid-template-columns: 1fr;
+		width: 100%;
+	}
+	.right{
+		width: 100%;
+	}
+	.container-contact{
+		padding: 0 10px 0 10px;
+	}
+
+  .Container{
+    background-color: black;
+  }
+  body{
+    background-color: black;
+  }
+  .follower{
+    display: none;
+  }
+  .cursor{
+    display: none;
+  }
+  
+  #Skills-text{
+    margin-top: 20%;
+    overflow-y: hidden;
+  }
+  
+  .Portfolio-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+  }
+
+
+  #Skills-text{
+    position: relative;
+    position: relative;
+    height: 20vh;
+    font-size: 10vw;
+    width: 100%;
+    color: white;
+    text-align: center;
+    top: 130px;
+    }
+  .image-inner{
+    display: flex;
+    justify-content: center;
+
+  }
   #Container3{
     margin-top:50vh;
     /* border: 2px solid white ; */
@@ -756,8 +724,12 @@ textarea{
       border: 2px solid black;
       height: 70vh;
     }
+
+    
+    
     
 }
+
 
 .the-buttons{
   /* border: 1px solid black; */
