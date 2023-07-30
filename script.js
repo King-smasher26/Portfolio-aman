@@ -1,8 +1,6 @@
 // SKILLS CARD SCRIPT
 
-var w = window.innerWidth;
-
-if(w>1250){
+// var w = window.innerWidth;
 
     gsap.registerPlugin(ScrollTrigger);
     
@@ -203,7 +201,7 @@ if(w>1250){
             }
         })
         
-    }
+    // ends here
 
     // gsap.to('#avatar-img', {
     //     scale: 1,
